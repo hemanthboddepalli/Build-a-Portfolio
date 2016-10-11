@@ -1,0 +1,110 @@
+/*
+ *
+ * Body
+ *
+ */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+}
+
+/*
+ *
+ * Text
+ *
+ */
+
+.text-muted {
+    color: #7d97ad;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+
+.text-thin {
+    font-weight: 100;
+}
+
+
+.title-super {
+    font-size: 60px;
+}
+
+
+.sub-title {
+    font-size: 22px;
+}
+
+
+.body-title {
+    font-size: 35px;
+}
+
+/*
+ *
+ * Logo
+ *
+ */
+
+.title-logo {
+    margin-top: 30px;
+}
+
+/*
+ *
+ * HR
+ *
+ */
+
+hr {
+    border-width: 5px;
+    border-color: #7d97ad;
+}
+
+/*
+ *
+ * Hyper Links
+ *
+ */
+
+a {
+    color: #2d3c49;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+
+a:hover ,
+a:focus {
+    text-decoration: none;
+}
+
+/*
+ *
+ * Image Center
+ *
+ */
+
+.image-center{
+    margin: 0 auto;
+}
+
+/*
+ *
+ * Media queries
+ *
+ */
+
+@media screen and (max-width: 768px) {
+    .text-muted {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .text-muted{
+        font-size: 30px;
+    }
+}
